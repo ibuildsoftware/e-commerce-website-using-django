@@ -137,3 +137,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+JAZZMIN_SETTINGS = {
+    'site_header' : "Shop Name",
+    'site_brand' : "You order, we deliver",
+    'site_logo' : "assets/imgs/theme/loading.gif",  
+    'copyright' : "shop-name.com", 
+}
